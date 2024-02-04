@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Numberlist Interpreter</title>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1><a href="https://esolangs.org/wiki/Numberlist">Numberlist</a> interpreter</h1>
+		<h2>created by Dtp09</h2>
+		<table>
+			<tr>
+				<td>
+					<b>code</b>
+					<textarea cols="30" rows="20" id="code"></textarea>
+					<b style="padding-left:20px;">output number list</b>
+					<textarea cols="30" rows="20" id="leftover" disabled="true"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick='console.log(execute(document.getElementById("code").value))'>execute</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b>output</b>
+					<textarea cols="50" rows="5" id="output" disabled="true"></textarea>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html
